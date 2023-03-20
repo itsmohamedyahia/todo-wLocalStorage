@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #009578;
+  padding: 5rem;
+  height: 100vh;
+}
+
+input,
+.btn--add {
+  border: none;
+  width: 100%;
+  padding: 0.2rem;
+  height: 3.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

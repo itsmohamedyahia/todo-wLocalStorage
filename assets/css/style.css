@@ -1,0 +1,73 @@
+.main {
+  max-height: 100%;
+  position: static;
+}
+
+h1,
+h2 {
+  color: white;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4.4rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+h2 {
+  width: 100%;
+  text-align: left;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.col-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+ion-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 3rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.trash {
+  right: 5px;
+}
+
+#input-card {
+  padding: 2.2rem;
+  font-size: 1.6rem;
+  color: black;
+}
+
+.btn--add {
+  color: white;
+  background-color: #00866d;
+  font-size: 1.8rem;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-container > .col > div {
+  position: relative;
+}
+
+.droppable {
+  background: firebrick;
+}

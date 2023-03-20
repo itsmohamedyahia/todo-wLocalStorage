@@ -1,0 +1,45 @@
+/* ==========*/
+/* DESKTOPS
+/* ==========*/
+@media (max-width: 75em) {
+  html {
+    /* Set base font size to 9px */
+    font-size: 56.25%;
+  }
+}
+
+/* ==========*/
+/* TABLETS
+/* ==========*/
+@media (max-width: 59em) {
+  html {
+    /* Set base font size to 8px */
+    font-size: 50%;
+  }
+  body {
+    padding: 3rem;
+  }
+  .col-container {
+    gap: 4rem;
+  }
+  .main {
+    margin: 0 auto;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 40em) {
+  .col-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* ================*/
+/* PHONES */
+/* ================*/
+@media (max-width: 34em) {
+  .col-container {
+    grid-template-columns: 1fr;
+  }
+}
